@@ -46,7 +46,7 @@ private:
     uint8_t specialButtonBitPosition(uint8_t specialButton);
 
 public:
-    BleGamepad(std::string deviceName = "Kubik Globe Gamepad", std::string deviceManufacturer = "Espressif", uint8_t batteryLevel = 100);
+    BleGamepad(std::string deviceName = "Kubik Globe Gamepad1", std::string deviceManufacturer = "Espressif", uint8_t batteryLevel = 100);
     void begin(BleGamepadConfiguration *config = new BleGamepadConfiguration());
     void end(void);
     void setAxes(int16_t x = 0, int16_t y = 0, int16_t z = 0, int16_t rZ = 0, int16_t rX = 0, int16_t rY = 0, int16_t slider1 = 0, int16_t slider2 = 0);
